@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="UserListTblVCell" id="KGk-i7-Jjw" customClass="UserListTblVCell" customModule="CombineAPICallingWithMVVM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="69"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XpU-8e-YIG">
+                        <rect key="frame" x="12" y="11" width="50" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Peter Parker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OmR-JZ-dFh">
+                        <rect key="frame" x="82" y="11" width="320" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2k-Nf-Skw">
+                        <rect key="frame" x="12" y="37" width="45.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="peterparker@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fhb-4w-ZI6">
+                        <rect key="frame" x="82" y="37" width="320" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Fhb-4w-ZI6" firstAttribute="centerY" secondItem="S2k-Nf-Skw" secondAttribute="centerY" id="2d9-fr-WNi"/>
+                    <constraint firstItem="S2k-Nf-Skw" firstAttribute="leading" secondItem="XpU-8e-YIG" secondAttribute="leading" id="A5S-Ka-hix"/>
+                    <constraint firstItem="Fhb-4w-ZI6" firstAttribute="leading" secondItem="OmR-JZ-dFh" secondAttribute="leading" id="FUh-yX-b9f"/>
+                    <constraint firstItem="OmR-JZ-dFh" firstAttribute="centerY" secondItem="XpU-8e-YIG" secondAttribute="centerY" id="HRE-8Q-rhA"/>
+                    <constraint firstAttribute="trailing" secondItem="OmR-JZ-dFh" secondAttribute="trailing" constant="12" id="aKk-zg-FhQ"/>
+                    <constraint firstItem="S2k-Nf-Skw" firstAttribute="top" secondItem="XpU-8e-YIG" secondAttribute="bottom" constant="5" id="cGj-Zr-ct7"/>
+                    <constraint firstItem="XpU-8e-YIG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="d9H-rV-uPp"/>
+                    <constraint firstItem="OmR-JZ-dFh" firstAttribute="leading" secondItem="XpU-8e-YIG" secondAttribute="trailing" priority="999" constant="20" id="nJk-lm-cpM"/>
+                    <constraint firstItem="XpU-8e-YIG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="trD-YM-Ycm"/>
+                    <constraint firstAttribute="bottom" secondItem="S2k-Nf-Skw" secondAttribute="bottom" constant="11" id="w8A-XD-V8c"/>
+                    <constraint firstItem="Fhb-4w-ZI6" firstAttribute="trailing" secondItem="OmR-JZ-dFh" secondAttribute="trailing" id="yk8-pv-ADw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblUserEmail" destination="Fhb-4w-ZI6" id="A1c-hw-rX7"/>
+                <outlet property="lblUserName" destination="OmR-JZ-dFh" id="bcx-qU-0Tz"/>
+            </connections>
+            <point key="canvasLocation" x="-117" y="9"/>
+        </tableViewCell>
+    </objects>
+</document>
