@@ -1,6 +1,6 @@
 # CombinePart-2 (API Call & Parsing)
 
-This combine demo with MVVM pattern is very simple and easy to understand. In this demo there is normal API parsing. You can read more from [Medium](https://medium.com/mindful-engineering/saying-hello-to-combine-framework-part-1-30d9c07210df)
+This combine demo with MVVM pattern is very simple and easy to understand. In this demo there is normal API parsing. You can read more from [Medium](https://medium.com/mindful-engineering/saying-hello-to-combine-framework-api-call-parsing-part-2-e412dc649664)
 
 ![video](/Media/combine_part2.gif)
 
