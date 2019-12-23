@@ -6,7 +6,7 @@ This combine demo with MVVM pattern is very simple and easy to understand. In th
 
 # Description
 
-In this demo there is one UITableView, one UISearchField. We are showing the result from API into UITableVire using DiffableDatasource. We applied the local search functionality here.
+In this demo there is one UITableView, one UISearchField. We are showing the result from API into UITableView using DiffableDatasource. We applied the local search functionality here.
 
 # UI Controls 
 - UITableView
