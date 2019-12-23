@@ -1,4 +1,4 @@
-# CombinePart-2
+# CombinePart-2 (API Call & Parse)
 
 This combine demo with MVVM pattern is very simple and easy to understand. In this demo there is normal API parsing. You can read more from [Medium](https://medium.com/mindful-engineering/saying-hello-to-combine-framework-part-1-30d9c07210df)
 
